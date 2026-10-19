@@ -1,0 +1,194 @@
+KIA KOTAHI AKO — RESOURCE PLANNER
+Implementation Plan · Oct 2026 – Sep 2027 (financial year: Oct–Dec = Q3)
+"Type only in block 01 (hours available each month) and on the kaimahi rows in block 02. Goal, activity, workstream and summary rows are formulas."
+
+SETTINGS
+Plannable share of a person's time,0.75
+Admin reserve,0.1
+Opportunities / development reserve,0.15
+
+QUARTER MAP,,,,Q3,Q3,Q3,Q4,Q4,Q4,Q1,Q1,Q1,Q2,Q2,Q2
+
+"01 — HOURS AVAILABLE PER KAIMAHI, PER MONTH","Set each person's real hours for each month — leave, short terms and contract changes included."
+Kaimahi,,,,Oct 2026,Nov 2026,Dec 2026,Jan 2027,Feb 2027,Mar 2027,Apr 2027,May 2027,Jun 2027,Jul 2027,Aug 2027,Sep 2027,Year available,Year plannable (75%),Reserve (25%)
+Sarah,,,,81,81,81,81,81,81,81,81,81,81,81,81,=SUM(E14:P14),"=ROUND(Q14*$B$6,1)","=ROUND(Q14*($B$7+$B$8),1)"
+Bex,,,,48,48,48,48,48,48,48,48,48,48,48,48,=SUM(E15:P15),"=ROUND(Q15*$B$6,1)","=ROUND(Q15*($B$7+$B$8),1)"
+Miri,,,,0,0,0,0,0,0,0,0,0,0,0,0,=SUM(E16:P16),"=ROUND(Q16*$B$6,1)","=ROUND(Q16*($B$7+$B$8),1)"
+Nikora,,,,33,33,33,33,33,33,33,33,33,33,33,33,=SUM(E17:P17),"=ROUND(Q17*$B$6,1)","=ROUND(Q17*($B$7+$B$8),1)"
+Te Waiora,,,,30,30,30,30,30,30,30,30,30,30,30,30,=SUM(E18:P18),"=ROUND(Q18*$B$6,1)","=ROUND(Q18*($B$7+$B$8),1)"
+
+TEAM,,,,=SUM(E14:E18),=SUM(F14:F18),=SUM(G14:G18),=SUM(H14:H18),=SUM(I14:I18),=SUM(J14:J18),=SUM(K14:K18),=SUM(L14:L18),=SUM(M14:M18),=SUM(N14:N18),=SUM(O14:O18),=SUM(P14:P18),=SUM(Q14:Q18),=SUM(R14:R18),=SUM(S14:S18)
+
+"02 — STRATEGIC POU: GOALS, ACTIVITIES AND MONTHLY HOURS",Goals and their October–December activities from the 2026 implementation plan. Each activity has a Lead and a Support row — add the kaimahi name in column D and enter hours only on those rows.
+Workstream,Goal,Activity,Kaimahi,Oct 2026,Nov 2026,Dec 2026,Jan 2027,Feb 2027,Mar 2027,Apr 2027,May 2027,Jun 2027,Jul 2027,Aug 2027,Sep 2027,Total,Role
+Network and Connections,Funding — maintain and expand high-trust funding partners (>$400k from at least 3 funders),,,=E25+E28+E31+E34+E37+E40,=F25+F28+F31+F34+F37+F40,=G25+G28+G31+G34+G37+G40,=H25+H28+H31+H34+H37+H40,=I25+I28+I31+I34+I37+I40,=J25+J28+J31+J34+J37+J40,=K25+K28+K31+K34+K37+K40,=L25+L28+L31+L34+L37+L40,=M25+M28+M31+M34+M37+M40,=N25+N28+N31+N34+N37+N40,=O25+O28+O31+O34+O37+O40,=P25+P28+P31+P34+P37+P40,=SUM(E24:P24),— goal total —
+Network and Connections,,Find additional funding opportunities for Te Pā Matihiko,,=SUM(E26:E27),=SUM(F26:F27),=SUM(G26:G27),=SUM(H26:H27),=SUM(I26:I27),=SUM(J26:J27),=SUM(K26:K27),=SUM(L26:L27),=SUM(M26:M27),=SUM(N26:N27),=SUM(O26:O27),=SUM(P26:P27),=SUM(E25:P25),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E26:P26),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E27:P27),Support
+Network and Connections,,Updates to partners and individuals — leverage Honnold,,=SUM(E29:E30),=SUM(F29:F30),=SUM(G29:G30),=SUM(H29:H30),=SUM(I29:I30),=SUM(J29:J30),=SUM(K29:K30),=SUM(L29:L30),=SUM(M29:M30),=SUM(N29:N30),=SUM(O29:O30),=SUM(P29:P30),=SUM(E28:P28),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E29:P29),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E30:P30),Support
+Network and Connections,,Co-funding from Trust Tairāwhiti for 2027 support,,=SUM(E32:E33),=SUM(F32:F33),=SUM(G32:G33),=SUM(H32:H33),=SUM(I32:I33),=SUM(J32:J33),=SUM(K32:K33),=SUM(L32:L33),=SUM(M32:M33),=SUM(N32:N33),=SUM(O32:O33),=SUM(P32:P33),=SUM(E31:P31),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E32:P32),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E33:P33),Support
+Network and Connections,,Todd plans confirmed for 2027,,=SUM(E35:E36),=SUM(F35:F36),=SUM(G35:G36),=SUM(H35:H36),=SUM(I35:I36),=SUM(J35:J36),=SUM(K35:K36),=SUM(L35:L36),=SUM(M35:M36),=SUM(N35:N36),=SUM(O35:O36),=SUM(P35:P36),=SUM(E34:P34),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E35:P35),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E36:P36),Support
+Network and Connections,,Follow up Climate Week (connect MacKenzie Scott),,=SUM(E38:E39),=SUM(F38:F39),=SUM(G38:G39),=SUM(H38:H39),=SUM(I38:I39),=SUM(J38:J39),=SUM(K38:K39),=SUM(L38:L39),=SUM(M38:M39),=SUM(N38:N39),=SUM(O38:O39),=SUM(P38:P39),=SUM(E37:P37),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E38:P38),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E39:P39),Support
+Network and Connections,,Other partners post Energy Summit,,=SUM(E41:E42),=SUM(F41:F42),=SUM(G41:G42),=SUM(H41:H42),=SUM(I41:I42),=SUM(J41:J42),=SUM(K41:K42),=SUM(L41:L42),=SUM(M41:M42),=SUM(N41:N42),=SUM(O41:O42),=SUM(P41:P42),=SUM(E40:P40),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E41:P41),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E42:P42),Support
+
+Network and Connections,Define and test the market for our service offerings,,,=E45+E48+E51+E54,=F45+F48+F51+F54,=G45+G48+G51+G54,=H45+H48+H51+H54,=I45+I48+I51+I54,=J45+J48+J51+J54,=K45+K48+K51+K54,=L45+L48+L51+L54,=M45+M48+M51+M54,=N45+N48+N51+N54,=O45+O48+O51+O54,=P45+P48+P51+P54,=SUM(E44:P44),— goal total —
+Network and Connections,,Proposal doc / image developed for Ka Uruora by Nov,,=SUM(E46:E47),=SUM(F46:F47),=SUM(G46:G47),=SUM(H46:H47),=SUM(I46:I47),=SUM(J46:J47),=SUM(K46:K47),=SUM(L46:L47),=SUM(M46:M47),=SUM(N46:N47),=SUM(O46:O47),=SUM(P46:P47),=SUM(E45:P45),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E46:P46),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E47:P47),Support
+Network and Connections,,Direct connections / presentation of concept to iwi housing groups,,=SUM(E49:E50),=SUM(F49:F50),=SUM(G49:G50),=SUM(H49:H50),=SUM(I49:I50),=SUM(J49:J50),=SUM(K49:K50),=SUM(L49:L50),=SUM(M49:M50),=SUM(N49:N50),=SUM(O49:O50),=SUM(P49:P50),=SUM(E48:P48),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E49:P49),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E50:P50),Support
+Network and Connections,,Research partner in place — UC? / Otago for modelling,,=SUM(E52:E53),=SUM(F52:F53),=SUM(G52:G53),=SUM(H52:H53),=SUM(I52:I53),=SUM(J52:J53),=SUM(K52:K53),=SUM(L52:L53),=SUM(M52:M53),=SUM(N52:N53),=SUM(O52:O53),=SUM(P52:P53),=SUM(E51:P51),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E52:P52),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E53:P53),Support
+Network and Connections,,Business case — solar company (installer / optimiser / maintenance),,=SUM(E55:E56),=SUM(F55:F56),=SUM(G55:G56),=SUM(H55:H56),=SUM(I55:I56),=SUM(J55:J56),=SUM(K55:K56),=SUM(L55:L56),=SUM(M55:M56),=SUM(N55:N56),=SUM(O55:O56),=SUM(P55:P56),=SUM(E54:P54),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E55:P55),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E56:P56),Support
+
+Network and Connections,Engage key partners at system level to advocate for Māori leadership pathways into renewable energy; engage key stakeholders in careers and further education pathways,,,=E59+E62+E65+E68,=F59+F62+F65+F68,=G59+G62+G65+G68,=H59+H62+H65+H68,=I59+I62+I65+I68,=J59+J62+J65+J68,=K59+K62+K65+K68,=L59+L62+L65+L68,=M59+M62+M65+M68,=N59+N62+N65+N68,=O59+O62+O65+O68,=P59+P62+P65+P68,=SUM(E58:P58),— goal total —
+Network and Connections,,Oct — Māori Energy Summit session and follow-up,,=SUM(E60:E61),=SUM(F60:F61),=SUM(G60:G61),=SUM(H60:H61),=SUM(I60:I61),=SUM(J60:J61),=SUM(K60:K61),=SUM(L60:L61),=SUM(M60:M61),=SUM(N60:N61),=SUM(O60:O61),=SUM(P60:P61),=SUM(E59:P59),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E60:P60),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E61:P61),Support
+Network and Connections,,Anything for election / wider system?,,=SUM(E63:E64),=SUM(F63:F64),=SUM(G63:G64),=SUM(H63:H64),=SUM(I63:I64),=SUM(J63:J64),=SUM(K63:K64),=SUM(L63:L64),=SUM(M63:M64),=SUM(N63:N64),=SUM(O63:O64),=SUM(P63:P64),=SUM(E62:P62),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E63:P63),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E64:P64),Support
+Network and Connections,,Link students and industry — Honnold and Tairāwhiti?,,=SUM(E66:E67),=SUM(F66:F67),=SUM(G66:G67),=SUM(H66:H67),=SUM(I66:I67),=SUM(J66:J67),=SUM(K66:K67),=SUM(L66:L67),=SUM(M66:M67),=SUM(N66:N67),=SUM(O66:O67),=SUM(P66:P67),=SUM(E65:P65),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E66:P66),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E67:P67),Support
+Network and Connections,,Careers part pushed back?,,=SUM(E69:E70),=SUM(F69:F70),=SUM(G69:G70),=SUM(H69:H70),=SUM(I69:I70),=SUM(J69:J70),=SUM(K69:K70),=SUM(L69:L70),=SUM(M69:M70),=SUM(N69:N70),=SUM(O69:O70),=SUM(P69:P70),=SUM(E68:P68),— activity total —
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E69:P69),Lead
+Network and Connections,,,,,,,,,,,,,,,,=SUM(E70:P70),Support
+
+Network and Connections,— WORKSTREAM TOTAL —,,,=E24+E44+E58,=F24+F44+F58,=G24+G44+G58,=H24+H44+H58,=I24+I44+I58,=J24+J44+J58,=K24+K44+K58,=L24+L44+L58,=M24+M44+M58,=N24+N44+N58,=O24+O44+O58,=P24+P44+P58,=SUM(E72:P72),
+
+Programme Development,"Initiate national roll-out of Capturing Te Rā solar programme; refine, package and digitise solar suitcase learning materials",,,=E75+E78+E81+E84+E87,=F75+F78+F81+F84+F87,=G75+G78+G81+G84+G87,=H75+H78+H81+H84+H87,=I75+I78+I81+I84+I87,=J75+J78+J81+J84+J87,=K75+K78+K81+K84+K87,=L75+L78+L81+L84+L87,=M75+M78+M81+M84+M87,=N75+N78+N81+N84+N87,=O75+O78+O81+O84+O87,=P75+P78+P81+P84+P87,=SUM(E74:P74),— goal total —
+Programme Development,,Tairāwhiti Nov visits — data sessions and 2027 action planning,,=SUM(E76:E77),=SUM(F76:F77),=SUM(G76:G77),=SUM(H76:H77),=SUM(I76:I77),=SUM(J76:J77),=SUM(K76:K77),=SUM(L76:L77),=SUM(M76:M77),=SUM(N76:N77),=SUM(O76:O77),=SUM(P76:P77),=SUM(E75:P75),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E76:P76),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E77:P77),Support
+Programme Development,,Te Pā energy wānanga up and running for Tait funding,,=SUM(E79:E80),=SUM(F79:F80),=SUM(G79:G80),=SUM(H79:H80),=SUM(I79:I80),=SUM(J79:J80),=SUM(K79:K80),=SUM(L79:L80),=SUM(M79:M80),=SUM(N79:N80),=SUM(O79:O80),=SUM(P79:P80),=SUM(E78:P78),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E79:P79),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E80:P80),Support
+Programme Development,,Energy workforce development next steps,,=SUM(E82:E83),=SUM(F82:F83),=SUM(G82:G83),=SUM(H82:H83),=SUM(I82:I83),=SUM(J82:J83),=SUM(K82:K83),=SUM(L82:L83),=SUM(M82:M83),=SUM(N82:N83),=SUM(O82:O83),=SUM(P82:P83),=SUM(E81:P81),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E82:P82),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E83:P83),Support
+Programme Development,,Eastern Bay REAP next steps,,=SUM(E85:E86),=SUM(F85:F86),=SUM(G85:G86),=SUM(H85:H86),=SUM(I85:I86),=SUM(J85:J86),=SUM(K85:K86),=SUM(L85:L86),=SUM(M85:M86),=SUM(N85:N86),=SUM(O85:O86),=SUM(P85:P86),=SUM(E84:P84),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E85:P85),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E86:P86),Support
+Programme Development,,Start building list of interested groups,,=SUM(E88:E89),=SUM(F88:F89),=SUM(G88:G89),=SUM(H88:H89),=SUM(I88:I89),=SUM(J88:J89),=SUM(K88:K89),=SUM(L88:L89),=SUM(M88:M89),=SUM(N88:N89),=SUM(O88:O89),=SUM(P88:P89),=SUM(E87:P87),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E88:P88),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E89:P89),Support
+
+Programme Development,Coordinate solar installations and support community to maximise assets,,,=E92+E95,=F92+F95,=G92+G95,=H92+H95,=I92+I95,=J92+J95,=K92+K95,=L92+L95,=M92+M95,=N92+N95,=O92+O95,=P92+P95,=SUM(E91:P91),— goal total —
+Programme Development,,"Taranaki installation — track savings, train up on data, explore community energy sharing",,=SUM(E93:E94),=SUM(F93:F94),=SUM(G93:G94),=SUM(H93:H94),=SUM(I93:I94),=SUM(J93:J94),=SUM(K93:K94),=SUM(L93:L94),=SUM(M93:M94),=SUM(N93:N94),=SUM(O93:O94),=SUM(P93:P94),=SUM(E92:P92),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E93:P93),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E94:P94),Support
+Programme Development,,"Te Pā installation — clear roles, timelines and contracts",,=SUM(E96:E97),=SUM(F96:F97),=SUM(G96:G97),=SUM(H96:H97),=SUM(I96:I97),=SUM(J96:J97),=SUM(K96:K97),=SUM(L96:L97),=SUM(M96:M97),=SUM(N96:N97),=SUM(O96:O97),=SUM(P96:P97),=SUM(E95:P95),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E96:P96),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E97:P97),Support
+
+Programme Development,Share learnings and stories of impact from existing programmes; refine impact model and measurement tools,,,=E100+E103+E106+E109,=F100+F103+F106+F109,=G100+G103+G106+G109,=H100+H103+H106+H109,=I100+I103+I106+I109,=J100+J103+J106+J109,=K100+K103+K106+K109,=L100+L103+L106+L109,=M100+M103+M106+M109,=N100+N103+N106+N109,=O100+O103+O106+O109,=P100+P103+P106+P109,=SUM(E99:P99),— goal total —
+Programme Development,,Outcomes tracking with Tari (Nov) — automate data display,,=SUM(E101:E102),=SUM(F101:F102),=SUM(G101:G102),=SUM(H101:H102),=SUM(I101:I102),=SUM(J101:J102),=SUM(K101:K102),=SUM(L101:L102),=SUM(M101:M102),=SUM(N101:N102),=SUM(O101:O102),=SUM(P101:P102),=SUM(E100:P100),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E101:P101),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E102:P102),Support
+Programme Development,,Term 4 — design and collect video / photo stories and impact reflections,,=SUM(E104:E105),=SUM(F104:F105),=SUM(G104:G105),=SUM(H104:H105),=SUM(I104:I105),=SUM(J104:J105),=SUM(K104:K105),=SUM(L104:L105),=SUM(M104:M105),=SUM(N104:N105),=SUM(O104:O105),=SUM(P104:P105),=SUM(E103:P103),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E104:P104),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E105:P105),Support
+Programme Development,,Taranaki video finished to share,,=SUM(E107:E108),=SUM(F107:F108),=SUM(G107:G108),=SUM(H107:H108),=SUM(I107:I108),=SUM(J107:J108),=SUM(K107:K108),=SUM(L107:L108),=SUM(M107:M108),=SUM(N107:N108),=SUM(O107:O108),=SUM(P107:P108),=SUM(E106:P106),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E107:P107),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E108:P108),Support
+Programme Development,,Coordinated LinkedIn postings,,=SUM(E110:E111),=SUM(F110:F111),=SUM(G110:G111),=SUM(H110:H111),=SUM(I110:I111),=SUM(J110:J111),=SUM(K110:K111),=SUM(L110:L111),=SUM(M110:M111),=SUM(N110:N111),=SUM(O110:O111),=SUM(P110:P111),=SUM(E109:P109),— activity total —
+Programme Development,,,,,,,,,,,,,,,,=SUM(E110:P110),Lead
+Programme Development,,,,,,,,,,,,,,,,=SUM(E111:P111),Support
+
+Programme Development,— WORKSTREAM TOTAL —,,,=E74+E91+E99,=F74+F91+F99,=G74+G91+G99,=H74+H91+H99,=I74+I91+I99,=J74+J91+J99,=K74+K91+K99,=L74+L91+L99,=M74+M91+M99,=N74+N91+N99,=O74+O91+O99,=P74+P91+P99,=SUM(E113:P113),
+
+Business Operations and Administration,Optimise team roles / skills / support to deliver on strategy,,,=E116+E119+E122,=F116+F119+F122,=G116+G119+G122,=H116+H119+H122,=I116+I119+I122,=J116+J119+J122,=K116+K119+K122,=L116+L119+L122,=M116+M119+M122,=N116+N119+N122,=O116+O119+O122,=P116+P119+P122,=SUM(E115:P115),— goal total —
+Business Operations and Administration,,Confirm new role recruitment / timings — community lead?,,=SUM(E117:E118),=SUM(F117:F118),=SUM(G117:G118),=SUM(H117:H118),=SUM(I117:I118),=SUM(J117:J118),=SUM(K117:K118),=SUM(L117:L118),=SUM(M117:M118),=SUM(N117:N118),=SUM(O117:O118),=SUM(P117:P118),=SUM(E116:P116),— activity total —
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E117:P117),Lead
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E118:P118),Support
+Business Operations and Administration,,Training support for upskilling core team — esp. Te Reo Māori and business model development,,=SUM(E120:E121),=SUM(F120:F121),=SUM(G120:G121),=SUM(H120:H121),=SUM(I120:I121),=SUM(J120:J121),=SUM(K120:K121),=SUM(L120:L121),=SUM(M120:M121),=SUM(N120:N121),=SUM(O120:O121),=SUM(P120:P121),=SUM(E119:P119),— activity total —
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E120:P120),Lead
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E121:P121),Support
+Business Operations and Administration,,Board hui / planning,,=SUM(E123:E124),=SUM(F123:F124),=SUM(G123:G124),=SUM(H123:H124),=SUM(I123:I124),=SUM(J123:J124),=SUM(K123:K124),=SUM(L123:L124),=SUM(M123:M124),=SUM(N123:N124),=SUM(O123:O124),=SUM(P123:P124),=SUM(E122:P122),— activity total —
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E123:P123),Lead
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E124:P124),Support
+
+Business Operations and Administration,Continue refining project tools to improve delivery and reduce costs; define and introduce delivery systems and practices,,,=E127+E130+E133,=F127+F130+F133,=G127+G130+G133,=H127+H130+H133,=I127+I130+I133,=J127+J130+J133,=K127+K130+K133,=L127+L130+L133,=M127+M130+M133,=N127+N130+N133,=O127+O130+O133,=P127+P130+P133,=SUM(E126:P126),— goal total —
+Business Operations and Administration,,Resource Planner / Implementation Plan / Ops sheet hours automation,,=SUM(E128:E129),=SUM(F128:F129),=SUM(G128:G129),=SUM(H128:H129),=SUM(I128:I129),=SUM(J128:J129),=SUM(K128:K129),=SUM(L128:L129),=SUM(M128:M129),=SUM(N128:N129),=SUM(O128:O129),=SUM(P128:P129),=SUM(E127:P127),— activity total —
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E128:P128),Lead
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E129:P129),Support
+Business Operations and Administration,,AI automation goals — note taking? (Sarah AI course),,=SUM(E131:E132),=SUM(F131:F132),=SUM(G131:G132),=SUM(H131:H132),=SUM(I131:I132),=SUM(J131:J132),=SUM(K131:K132),=SUM(L131:L132),=SUM(M131:M132),=SUM(N131:N132),=SUM(O131:O132),=SUM(P131:P132),=SUM(E130:P130),— activity total —
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E131:P131),Lead
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E132:P132),Support
+Business Operations and Administration,,Confirm continuing to all use Trello / other system,,=SUM(E134:E135),=SUM(F134:F135),=SUM(G134:G135),=SUM(H134:H135),=SUM(I134:I135),=SUM(J134:J135),=SUM(K134:K135),=SUM(L134:L135),=SUM(M134:M135),=SUM(N134:N135),=SUM(O134:O135),=SUM(P134:P135),=SUM(E133:P133),— activity total —
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E134:P134),Lead
+Business Operations and Administration,,,,,,,,,,,,,,,,=SUM(E135:P135),Support
+
+Business Operations and Administration,— WORKSTREAM TOTAL —,,,=E115+E126,=F115+F126,=G115+G126,=H115+H126,=I115+I126,=J115+J126,=K115+K126,=L115+L126,=M115+M126,=N115+N126,=O115+O126,=P115+P126,=SUM(E137:P137),
+
+
+03 — ALLOCATED PER KAIMAHI,"Summed from every named kaimahi row above, lead and support alike. Rows named All count in full for every kaimahi."
+Kaimahi,,,,Oct 2026,Nov 2026,Dec 2026,Jan 2027,Feb 2027,Mar 2027,Apr 2027,May 2027,Jun 2027,Jul 2027,Aug 2027,Sep 2027,Year total
+=A14,,,,"=SUMIF($D$24:$D$138,$A142,E$24:E$138)+SUMIF($D$24:$D$138,""All"",E$24:E$138)","=SUMIF($D$24:$D$138,$A142,F$24:F$138)+SUMIF($D$24:$D$138,""All"",F$24:F$138)","=SUMIF($D$24:$D$138,$A142,G$24:G$138)+SUMIF($D$24:$D$138,""All"",G$24:G$138)","=SUMIF($D$24:$D$138,$A142,H$24:H$138)+SUMIF($D$24:$D$138,""All"",H$24:H$138)","=SUMIF($D$24:$D$138,$A142,I$24:I$138)+SUMIF($D$24:$D$138,""All"",I$24:I$138)","=SUMIF($D$24:$D$138,$A142,J$24:J$138)+SUMIF($D$24:$D$138,""All"",J$24:J$138)","=SUMIF($D$24:$D$138,$A142,K$24:K$138)+SUMIF($D$24:$D$138,""All"",K$24:K$138)","=SUMIF($D$24:$D$138,$A142,L$24:L$138)+SUMIF($D$24:$D$138,""All"",L$24:L$138)","=SUMIF($D$24:$D$138,$A142,M$24:M$138)+SUMIF($D$24:$D$138,""All"",M$24:M$138)","=SUMIF($D$24:$D$138,$A142,N$24:N$138)+SUMIF($D$24:$D$138,""All"",N$24:N$138)","=SUMIF($D$24:$D$138,$A142,O$24:O$138)+SUMIF($D$24:$D$138,""All"",O$24:O$138)","=SUMIF($D$24:$D$138,$A142,P$24:P$138)+SUMIF($D$24:$D$138,""All"",P$24:P$138)",=SUM(E142:P142)
+=A15,,,,"=SUMIF($D$24:$D$138,$A143,E$24:E$138)+SUMIF($D$24:$D$138,""All"",E$24:E$138)","=SUMIF($D$24:$D$138,$A143,F$24:F$138)+SUMIF($D$24:$D$138,""All"",F$24:F$138)","=SUMIF($D$24:$D$138,$A143,G$24:G$138)+SUMIF($D$24:$D$138,""All"",G$24:G$138)","=SUMIF($D$24:$D$138,$A143,H$24:H$138)+SUMIF($D$24:$D$138,""All"",H$24:H$138)","=SUMIF($D$24:$D$138,$A143,I$24:I$138)+SUMIF($D$24:$D$138,""All"",I$24:I$138)","=SUMIF($D$24:$D$138,$A143,J$24:J$138)+SUMIF($D$24:$D$138,""All"",J$24:J$138)","=SUMIF($D$24:$D$138,$A143,K$24:K$138)+SUMIF($D$24:$D$138,""All"",K$24:K$138)","=SUMIF($D$24:$D$138,$A143,L$24:L$138)+SUMIF($D$24:$D$138,""All"",L$24:L$138)","=SUMIF($D$24:$D$138,$A143,M$24:M$138)+SUMIF($D$24:$D$138,""All"",M$24:M$138)","=SUMIF($D$24:$D$138,$A143,N$24:N$138)+SUMIF($D$24:$D$138,""All"",N$24:N$138)","=SUMIF($D$24:$D$138,$A143,O$24:O$138)+SUMIF($D$24:$D$138,""All"",O$24:O$138)","=SUMIF($D$24:$D$138,$A143,P$24:P$138)+SUMIF($D$24:$D$138,""All"",P$24:P$138)",=SUM(E143:P143)
+=A16,,,,"=SUMIF($D$24:$D$138,$A144,E$24:E$138)+SUMIF($D$24:$D$138,""All"",E$24:E$138)","=SUMIF($D$24:$D$138,$A144,F$24:F$138)+SUMIF($D$24:$D$138,""All"",F$24:F$138)","=SUMIF($D$24:$D$138,$A144,G$24:G$138)+SUMIF($D$24:$D$138,""All"",G$24:G$138)","=SUMIF($D$24:$D$138,$A144,H$24:H$138)+SUMIF($D$24:$D$138,""All"",H$24:H$138)","=SUMIF($D$24:$D$138,$A144,I$24:I$138)+SUMIF($D$24:$D$138,""All"",I$24:I$138)","=SUMIF($D$24:$D$138,$A144,J$24:J$138)+SUMIF($D$24:$D$138,""All"",J$24:J$138)","=SUMIF($D$24:$D$138,$A144,K$24:K$138)+SUMIF($D$24:$D$138,""All"",K$24:K$138)","=SUMIF($D$24:$D$138,$A144,L$24:L$138)+SUMIF($D$24:$D$138,""All"",L$24:L$138)","=SUMIF($D$24:$D$138,$A144,M$24:M$138)+SUMIF($D$24:$D$138,""All"",M$24:M$138)","=SUMIF($D$24:$D$138,$A144,N$24:N$138)+SUMIF($D$24:$D$138,""All"",N$24:N$138)","=SUMIF($D$24:$D$138,$A144,O$24:O$138)+SUMIF($D$24:$D$138,""All"",O$24:O$138)","=SUMIF($D$24:$D$138,$A144,P$24:P$138)+SUMIF($D$24:$D$138,""All"",P$24:P$138)",=SUM(E144:P144)
+=A17,,,,"=SUMIF($D$24:$D$138,$A145,E$24:E$138)+SUMIF($D$24:$D$138,""All"",E$24:E$138)","=SUMIF($D$24:$D$138,$A145,F$24:F$138)+SUMIF($D$24:$D$138,""All"",F$24:F$138)","=SUMIF($D$24:$D$138,$A145,G$24:G$138)+SUMIF($D$24:$D$138,""All"",G$24:G$138)","=SUMIF($D$24:$D$138,$A145,H$24:H$138)+SUMIF($D$24:$D$138,""All"",H$24:H$138)","=SUMIF($D$24:$D$138,$A145,I$24:I$138)+SUMIF($D$24:$D$138,""All"",I$24:I$138)","=SUMIF($D$24:$D$138,$A145,J$24:J$138)+SUMIF($D$24:$D$138,""All"",J$24:J$138)","=SUMIF($D$24:$D$138,$A145,K$24:K$138)+SUMIF($D$24:$D$138,""All"",K$24:K$138)","=SUMIF($D$24:$D$138,$A145,L$24:L$138)+SUMIF($D$24:$D$138,""All"",L$24:L$138)","=SUMIF($D$24:$D$138,$A145,M$24:M$138)+SUMIF($D$24:$D$138,""All"",M$24:M$138)","=SUMIF($D$24:$D$138,$A145,N$24:N$138)+SUMIF($D$24:$D$138,""All"",N$24:N$138)","=SUMIF($D$24:$D$138,$A145,O$24:O$138)+SUMIF($D$24:$D$138,""All"",O$24:O$138)","=SUMIF($D$24:$D$138,$A145,P$24:P$138)+SUMIF($D$24:$D$138,""All"",P$24:P$138)",=SUM(E145:P145)
+=A18,,,,"=SUMIF($D$24:$D$138,$A146,E$24:E$138)+SUMIF($D$24:$D$138,""All"",E$24:E$138)","=SUMIF($D$24:$D$138,$A146,F$24:F$138)+SUMIF($D$24:$D$138,""All"",F$24:F$138)","=SUMIF($D$24:$D$138,$A146,G$24:G$138)+SUMIF($D$24:$D$138,""All"",G$24:G$138)","=SUMIF($D$24:$D$138,$A146,H$24:H$138)+SUMIF($D$24:$D$138,""All"",H$24:H$138)","=SUMIF($D$24:$D$138,$A146,I$24:I$138)+SUMIF($D$24:$D$138,""All"",I$24:I$138)","=SUMIF($D$24:$D$138,$A146,J$24:J$138)+SUMIF($D$24:$D$138,""All"",J$24:J$138)","=SUMIF($D$24:$D$138,$A146,K$24:K$138)+SUMIF($D$24:$D$138,""All"",K$24:K$138)","=SUMIF($D$24:$D$138,$A146,L$24:L$138)+SUMIF($D$24:$D$138,""All"",L$24:L$138)","=SUMIF($D$24:$D$138,$A146,M$24:M$138)+SUMIF($D$24:$D$138,""All"",M$24:M$138)","=SUMIF($D$24:$D$138,$A146,N$24:N$138)+SUMIF($D$24:$D$138,""All"",N$24:N$138)","=SUMIF($D$24:$D$138,$A146,O$24:O$138)+SUMIF($D$24:$D$138,""All"",O$24:O$138)","=SUMIF($D$24:$D$138,$A146,P$24:P$138)+SUMIF($D$24:$D$138,""All"",P$24:P$138)",=SUM(E146:P146)
+
+"04 — GAP TO 75%, BY MONTH","Negative = over the plannable budget, eating the reserve."
+Kaimahi,,,,Oct 2026,Nov 2026,Dec 2026,Jan 2027,Feb 2027,Mar 2027,Apr 2027,May 2027,Jun 2027,Jul 2027,Aug 2027,Sep 2027,Year gap
+=A14,,,,"=ROUND(E14*$B$6-E142,1)","=ROUND(F14*$B$6-F142,1)","=ROUND(G14*$B$6-G142,1)","=ROUND(H14*$B$6-H142,1)","=ROUND(I14*$B$6-I142,1)","=ROUND(J14*$B$6-J142,1)","=ROUND(K14*$B$6-K142,1)","=ROUND(L14*$B$6-L142,1)","=ROUND(M14*$B$6-M142,1)","=ROUND(N14*$B$6-N142,1)","=ROUND(O14*$B$6-O142,1)","=ROUND(P14*$B$6-P142,1)",=SUM(E150:P150)
+=A15,,,,"=ROUND(E15*$B$6-E143,1)","=ROUND(F15*$B$6-F143,1)","=ROUND(G15*$B$6-G143,1)","=ROUND(H15*$B$6-H143,1)","=ROUND(I15*$B$6-I143,1)","=ROUND(J15*$B$6-J143,1)","=ROUND(K15*$B$6-K143,1)","=ROUND(L15*$B$6-L143,1)","=ROUND(M15*$B$6-M143,1)","=ROUND(N15*$B$6-N143,1)","=ROUND(O15*$B$6-O143,1)","=ROUND(P15*$B$6-P143,1)",=SUM(E151:P151)
+=A16,,,,"=ROUND(E16*$B$6-E144,1)","=ROUND(F16*$B$6-F144,1)","=ROUND(G16*$B$6-G144,1)","=ROUND(H16*$B$6-H144,1)","=ROUND(I16*$B$6-I144,1)","=ROUND(J16*$B$6-J144,1)","=ROUND(K16*$B$6-K144,1)","=ROUND(L16*$B$6-L144,1)","=ROUND(M16*$B$6-M144,1)","=ROUND(N16*$B$6-N144,1)","=ROUND(O16*$B$6-O144,1)","=ROUND(P16*$B$6-P144,1)",=SUM(E152:P152)
+=A17,,,,"=ROUND(E17*$B$6-E145,1)","=ROUND(F17*$B$6-F145,1)","=ROUND(G17*$B$6-G145,1)","=ROUND(H17*$B$6-H145,1)","=ROUND(I17*$B$6-I145,1)","=ROUND(J17*$B$6-J145,1)","=ROUND(K17*$B$6-K145,1)","=ROUND(L17*$B$6-L145,1)","=ROUND(M17*$B$6-M145,1)","=ROUND(N17*$B$6-N145,1)","=ROUND(O17*$B$6-O145,1)","=ROUND(P17*$B$6-P145,1)",=SUM(E153:P153)
+=A18,,,,"=ROUND(E18*$B$6-E146,1)","=ROUND(F18*$B$6-F146,1)","=ROUND(G18*$B$6-G146,1)","=ROUND(H18*$B$6-H146,1)","=ROUND(I18*$B$6-I146,1)","=ROUND(J18*$B$6-J146,1)","=ROUND(K18*$B$6-K146,1)","=ROUND(L18*$B$6-L146,1)","=ROUND(M18*$B$6-M146,1)","=ROUND(N18*$B$6-N146,1)","=ROUND(O18*$B$6-O146,1)","=ROUND(P18*$B$6-P146,1)",=SUM(E154:P154)
+
+05 — QUARTER ROLL-UP,Allocated vs plannable for each financial quarter.
+Kaimahi,Measure,,,Q3 Oct–Dec 26,Q4 Jan–Mar 27,Q1 Apr–Jun 27,Q2 Jul–Sep 27,Year
+=A14,Allocated,,,"=ROUND(SUM(E142:G142),1)","=ROUND(SUM(H142:J142),1)","=ROUND(SUM(K142:M142),1)","=ROUND(SUM(N142:P142),1)",=SUM(E158:H158)
+,Plannable (75%),,,"=ROUND(SUM(E14:G14)*$B$6,1)","=ROUND(SUM(H14:J14)*$B$6,1)","=ROUND(SUM(K14:M14)*$B$6,1)","=ROUND(SUM(N14:P14)*$B$6,1)",=SUM(E159:H159)
+,Gap,,,"=ROUND(E159-E158,1)","=ROUND(F159-F158,1)","=ROUND(G159-G158,1)","=ROUND(H159-H158,1)",=SUM(E160:H160)
+
+=A15,Allocated,,,"=ROUND(SUM(E143:G143),1)","=ROUND(SUM(H143:J143),1)","=ROUND(SUM(K143:M143),1)","=ROUND(SUM(N143:P143),1)",=SUM(E162:H162)
+,Plannable (75%),,,"=ROUND(SUM(E15:G15)*$B$6,1)","=ROUND(SUM(H15:J15)*$B$6,1)","=ROUND(SUM(K15:M15)*$B$6,1)","=ROUND(SUM(N15:P15)*$B$6,1)",=SUM(E163:H163)
+,Gap,,,"=ROUND(E163-E162,1)","=ROUND(F163-F162,1)","=ROUND(G163-G162,1)","=ROUND(H163-H162,1)",=SUM(E164:H164)
+
+=A16,Allocated,,,"=ROUND(SUM(E144:G144),1)","=ROUND(SUM(H144:J144),1)","=ROUND(SUM(K144:M144),1)","=ROUND(SUM(N144:P144),1)",=SUM(E166:H166)
+,Plannable (75%),,,"=ROUND(SUM(E16:G16)*$B$6,1)","=ROUND(SUM(H16:J16)*$B$6,1)","=ROUND(SUM(K16:M16)*$B$6,1)","=ROUND(SUM(N16:P16)*$B$6,1)",=SUM(E167:H167)
+,Gap,,,"=ROUND(E167-E166,1)","=ROUND(F167-F166,1)","=ROUND(G167-G166,1)","=ROUND(H167-H166,1)",=SUM(E168:H168)
+
+=A17,Allocated,,,"=ROUND(SUM(E145:G145),1)","=ROUND(SUM(H145:J145),1)","=ROUND(SUM(K145:M145),1)","=ROUND(SUM(N145:P145),1)",=SUM(E170:H170)
+,Plannable (75%),,,"=ROUND(SUM(E17:G17)*$B$6,1)","=ROUND(SUM(H17:J17)*$B$6,1)","=ROUND(SUM(K17:M17)*$B$6,1)","=ROUND(SUM(N17:P17)*$B$6,1)",=SUM(E171:H171)
+,Gap,,,"=ROUND(E171-E170,1)","=ROUND(F171-F170,1)","=ROUND(G171-G170,1)","=ROUND(H171-H170,1)",=SUM(E172:H172)
+
+=A18,Allocated,,,"=ROUND(SUM(E146:G146),1)","=ROUND(SUM(H146:J146),1)","=ROUND(SUM(K146:M146),1)","=ROUND(SUM(N146:P146),1)",=SUM(E174:H174)
+,Plannable (75%),,,"=ROUND(SUM(E18:G18)*$B$6,1)","=ROUND(SUM(H18:J18)*$B$6,1)","=ROUND(SUM(K18:M18)*$B$6,1)","=ROUND(SUM(N18:P18)*$B$6,1)",=SUM(E175:H175)
+,Gap,,,"=ROUND(E175-E174,1)","=ROUND(F175-F174,1)","=ROUND(G175-G174,1)","=ROUND(H175-H174,1)",=SUM(E176:H176)
+
+06 — SUMMARY
+Team hours available / yr,=Q20
+Team plannable / yr (75%),=R20
+Allocated / yr,=SUM(Q142:Q146)
+% of plannable committed,"=IFERROR(ROUND(B181/B180*100,0)&""%"",""—"")"
+Unused plannable hrs,"=MAX(0,B180-B181)"
+Unassigned hrs (no kaimahi named),"=SUMIFS(Q24:Q140,D24:D140,"""",R24:R140,""Lead"")+SUMIFS(Q24:Q140,D24:D140,"""",R24:R140,""Support"")"
+Protected reserve / yr (10% + 15%),=S20
+
+HOW TO USE
+1. File → Import → Upload → Replace spreadsheet. Keep 'Convert text to numbers and formulas' ticked.
+"2. Block 01: set each kaimahi's hours for every month. Drop a month for leave, raise it for a heavy month."
+"3. Block 02: goals (column B) and October–December activities (column C) come from the 2026 implementation plan. Type the kaimahi name in column D on each Lead / Support row (or All to count the hours for every kaimahi), then enter hours only on those rows."
+"4. To add a kaimahi to an activity, insert a row among its existing kaimahi rows and copy the row above — the activity and goal totals pick it up."
+5. Blocks 03–06 calculate. Block 04 is the one to watch — negative means that person is over 75% that month.
+6. Optional: select E150:P154 → Format → Conditional formatting → 'Less than 0' → red fill.
+"7. The 25% held back is deliberate: 10% admin, 15% opportunities, change and personal development. Don't plan into it."
